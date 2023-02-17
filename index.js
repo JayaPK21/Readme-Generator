@@ -73,7 +73,7 @@ function init() {
 
     inquirer.prompt(questions).then((response) => {
 
-        writeToFile('generatedReadMe.md', generateMarkdown(response));
+        writeToFile('GeneratedReadMe.md', generateMarkdown(response));
         
     });
 
