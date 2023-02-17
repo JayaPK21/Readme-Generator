@@ -36,3 +36,5 @@ Sample Tests
 ## Questions
 
 Sample Questions
+
+Visit my [GitHub](https://github.com/USER_NAME) for other exciting projects!

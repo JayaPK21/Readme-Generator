@@ -8,7 +8,8 @@ function generateMarkdown(data) {
     usage,
     contributing,
     tests,
-    emailID
+    emailID,
+    githubUserName
   } = data;
 
   const markdownText = 
@@ -49,7 +50,9 @@ ${tests}
 
 ## Questions
 
-For further questions relating to this project and application, please contact on the following address: ${emailID}`;
+For further questions relating to this project and application, please contact on the following address: ${emailID}
+
+Visit my [GitHub](https://github.com/${githubUserName}) for other exciting projects!`;
 
   return markdownText;
 }
