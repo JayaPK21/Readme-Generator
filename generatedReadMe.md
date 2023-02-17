@@ -1,8 +1,10 @@
-# Some Proj
+# Hello
+
+[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 
 ## Description
   
-Sample Des
+A simple project on introducing ourselves.
 
 ## Table of Contents
 
@@ -15,7 +17,7 @@ Sample Des
 
 ## Installation
 
-Sample Inst
+Sample Instructions
 
 ## Usage
 
@@ -23,11 +25,11 @@ Sample Usage
 
 ## License 
 
-Academic Free License v3.0
+This project is covered under the [ISC](https://opensource.org/licenses/ISC) licensce. Please follow the link to get a detailed information about the license.
 
 ## Contributing
 
-Contribution by
+Enthusiastically contributing
 
 ## Tests 
 
@@ -35,4 +37,6 @@ test1
 
 ## Questions
 
-For further questions relating to this project and application, please contact on the following address: swer@aser.com
+For further questions relating to this project and application, please contact on the following address: vdrs@vsd.com
+
+Visit my [GitHub](https://github.com/JayaPK21) for other exciting projects!

@@ -15,7 +15,7 @@ const questions = [
         type: 'list',
         message: 'Select a License for your project from the following list: ',
         name: 'license',
-        choices: ['MIT', 'Open Software License 3.0', 'Microsoft Public License', 'Academic Free License v3.0']
+        choices: ['Apache 2.0 License', 'MIT', 'Boost Software License 1.0', 'IBM Public License Version 1.0', 'ISC']
     },
 
     {
@@ -73,7 +73,6 @@ function init() {
 
     inquirer.prompt(questions).then((response) => {
 
-        //console.log(generateMarkdown(response));
         writeToFile('generatedReadMe.md', generateMarkdown(response));
         
     });
