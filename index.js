@@ -57,6 +57,9 @@ const questions = [
 
 // function to write README file
 function writeToFile(fileName, data) {
+
+    fs.writeFile(fileName, data, (err) => 
+    err ? console.error(err) : console.log(`ReadMe file for project Successfully generated and can be found in file, ${fileName}`));
 }
 
 // function to initialize program
@@ -64,8 +67,8 @@ function init() {
 
     inquirer.prompt(questions).then((response) => {
 
-        console.log(generateMarkdown(response));
-        //writeToFile(fileName, generateMarkdown(response));
+        //console.log(generateMarkdown(response));
+        writeToFile('generatedReadMe.md', generateMarkdown(response));
         
     });
 
