@@ -13,7 +13,7 @@ The required files for the application can be downloaded to the user's machine b
 1. Go to the [Application GitHub](https://github.com/JayaPK21/Readme-Generator) repository.
 2. Click on 'Code' and 'Download ZIP' as shown on the following screenshot.
 
-![Screenshot for downloading files of the Application](screenshots/DownloadZipScreenshot.png)
+![Screenshot for downloading files of the Application](assets/screenshots/DownloadZipScreenshot.png)
 
 3. Extract the files into your local repository.
 4. Run 'npm install' in the command line from the path where the files have been extracted to.
@@ -32,7 +32,9 @@ A ReadMe file gets generated for your specified project, and is stored in the 'G
 
 Following is a screenshot of a sample command line inputs to the application:
 
-![Screenshot of running the application.](screenshots/ApplicationUsage.png)
+![Screenshot of running the application.](assets/screenshots/ApplicationUsage.png)
+
+View the [walkthrough video](assets/video/ReadMeGenApplnWalkthrough.mp4) of the application to get a detailed understanding of its usage.
 
 ## License
 
