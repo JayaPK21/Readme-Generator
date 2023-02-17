@@ -64,7 +64,7 @@ function init() {
 
     inquirer.prompt(questions).then((response) => {
 
-        console.log(response.title, response.license);
+        console.log(generateMarkdown(response));
         //writeToFile(fileName, generateMarkdown(response));
         
     });
